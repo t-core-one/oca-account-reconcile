@@ -365,7 +365,7 @@ msgstr "Съпоставяне със записи, които не са от с
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Miscellaneous Matching"
-msgstr "Разнородни съвпадение"
+msgstr "Разнородни съвпадения"
 
 #. module: account_reconciliation_widget
 #. openerp-web
