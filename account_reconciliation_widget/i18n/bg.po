@@ -746,13 +746,6 @@ msgstr "съгласуване"
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
-msgid "reconciliation models"
-msgstr "модели на съгласуване"
-
-#. module: account_reconciliation_widget
-#. openerp-web
-#: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
-#, python-format
 msgid "remaining)"
 msgstr "оставащи)"
 
