@@ -17,14 +17,14 @@ msgstr ""
 #: code:addons/account_reconciliation_widget/models/reconciliation_widget.py:0
 #, python-format
 msgid "A reconciliation must involve at least 2 move lines."
-msgstr "Съгласуването трябва да включва поне 2 реда на счетоводни статии."
+msgstr "Обединяването трябва да включва поне 2 реда на счетоводни статии."
 
 #. module: account_reconciliation_widget
 #: code:addons/account_reconciliation_widget/models/account_bank_statement.py:0
 #: code:addons/account_reconciliation_widget/models/account_bank_statement.py:0
 #, python-format
 msgid "A selected move line was already reconciled."
-msgstr "Избраният ред вече е съгласуван."
+msgstr "Избраният ред вече е обединен."
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -40,7 +40,7 @@ msgstr "Сметка"
 #. module: account_reconciliation_widget
 #: model:ir.model,name:account_reconciliation_widget.model_account_reconciliation_widget
 msgid "Account Reconciliation widget"
-msgstr "Инструмент за съгласуване"
+msgstr "Инструмент за обединяване"
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -50,7 +50,7 @@ msgid ""
 "All invoices and payments have been matched, your accounts' balances are "
 "clean."
 msgstr ""
-"Всички фактури и плащания са съгласувани, балансите по сметките Ви са чисти."
+"Всички фактури и плащания са обединени, балансите по сметките Ви са чисти."
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -80,13 +80,13 @@ msgstr "Аналитични маркери"
 #: code:addons/account_reconciliation_widget/static/src/js/reconciliation/reconciliation_action.js:0
 #, python-format
 msgid "Bank Reconciliation"
-msgstr "Банково съгласуване"
+msgstr "Банково обединяване"
 
 #. module: account_reconciliation_widget
 #: model:ir.model.fields,field_description:account_reconciliation_widget.field_res_company__account_bank_reconciliation_start
 #: model:ir.model.fields,field_description:account_reconciliation_widget.field_res_config_settings__account_bank_reconciliation_start
 msgid "Bank Reconciliation Threshold"
-msgstr "Праг на банково съгласуване"
+msgstr "Праг на банково обединяване"
 
 #. module: account_reconciliation_widget
 #: model:ir.model,name:account_reconciliation_widget.model_account_bank_statement
@@ -110,7 +110,7 @@ msgstr "Избери всички"
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Check that you have no bank statement lines to"
-msgstr "Уверете се, че нямате редове в банковото извлечение, които да бъдат"
+msgstr "Уверете се, че нямате редове в банковото извлечение за"
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -159,7 +159,7 @@ msgid ""
 "Congrats, you're all done! You reconciled %s transactions in %s. That's on "
 "average %s seconds per transaction."
 msgstr ""
-"Честито, всичко е завършено! Вие съгласувахте %s транзакции за %s. Това е средно %s секунди на транзакция."
+"Честито, всичко е завършено! Вие обединихте %s транзакции за %s. Това е средно %s секунди на транзакция."
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -268,7 +268,7 @@ msgid ""
 "If set, the accounting entries created during the bank statement reconciliation process will be created at this date.\n"
 "This is useful if the accounting period in which the entries should normally be booked is already closed."
 msgstr ""
-"Ако е зададено, счетоводните записи създадени в процеса по съгласуване, ще бъдат с тази дата.\n"
+"Ако е зададено, счетоводните записи създадени в процеса по обединяване, ще бъдат с тази дата.\n"
 "Това е полезно, ако счетоводният период, в който записите трябва да бъдат записани, вече е затворен."
 
 #. module: account_reconciliation_widget
@@ -329,7 +329,7 @@ msgstr "Описание"
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Last Reconciliation:"
-msgstr "Последно съгласуване:"
+msgstr "Последно обединяване:"
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -413,8 +413,8 @@ msgid ""
 " make a regular revert of it in case you want to cancel it."
 msgstr ""
 "Операцията не е разрешена. Тъй като редът в извлечението вече има номер "
-"(%s), не можете да бъде съгласуван напълно със съществуващи счетоводни "
-"записи, тъй като това ще създаде празнина в номерацияата. Трябва да направите "
+"(%s), не може да бъде обединен напълно със съществуващи счетоводни "
+"записи, тъй като това ще създаде празнина в номерацията. Трябва да направите "
 "редовен обратен запис, ако искате да го анулирате."
 
 #. module: account_reconciliation_widget
@@ -448,18 +448,18 @@ msgstr "Конфигурация на предварителни настрой�
 #: model_terms:ir.ui.view,arch_db:account_reconciliation_widget.view_bank_statement_form
 #, python-format
 msgid "Reconcile"
-msgstr "Съгласувай"
+msgstr "Обедини"
 
 #. module: account_reconciliation_widget
 #: model:ir.actions.client,name:account_reconciliation_widget.action_manual_reconciliation
 #: model:ir.ui.menu,name:account_reconciliation_widget.menu_action_manual_reconciliation
 msgid "Reconciliation"
-msgstr "Съгласуване"
+msgstr "Обединяване"
 
 #. module: account_reconciliation_widget
 #: model:ir.actions.client,name:account_reconciliation_widget.action_bank_reconcile
 msgid "Reconciliation on Bank Statements"
-msgstr "Съгласуване на банкови извлечения"
+msgstr "Обединяване на банкови извлечения"
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -539,7 +539,7 @@ msgid ""
 "again if the line is cancelled,set to draft and re-processed again."
 msgstr ""
 "Техническо поле, съдържащо номера на счетоводната операция. Автоматично "
-"се задава, когато редът в извлечението е съгласуван и се съхранява за повторно "
+"се задава, когато редът в извлечението е обединен и се съхранява за повторно "
 "използване на същия номер, ако редът е анулиран, върнат в чернова и обработен отново."
 
 #. module: account_reconciliation_widget
@@ -565,7 +565,7 @@ msgid ""
 msgstr ""
 "Инструментът за няма да изисква сългасуване на плащания, "
 "по-стари от тази дата.\nТова е полезно, ако инсталирате счетоводството след като вече "
-"сте фактурирали и не искате да съгласувате всички минали плащания "
+"сте фактурирали и не искате да обедините всички минали плащания "
 "с банкови извлечения."
 
 #. module: account_reconciliation_widget
@@ -573,7 +573,7 @@ msgstr ""
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "There is nothing to reconcile."
-msgstr "Няма нищо за съгласуване."
+msgstr "Няма нищо за обединяване."
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -583,7 +583,7 @@ msgid ""
 "This page displays all the bank transactions that are to be reconciled and "
 "provides with a neat interface to do so."
 msgstr ""
-"Тази страница показва всички банкови трансакции, които трябва да бъдат съгласувани, и "
+"Тази страница показва всички банкови трансакции, които трябва да бъдат обединени и "
 "предоставя удобен интерфейс за това."
 
 #. module: account_reconciliation_widget
@@ -591,7 +591,7 @@ msgstr ""
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "This payment is registered but not reconciled."
-msgstr "Това плащане е регистрирано, но не е съгласувано."
+msgstr "Това плащане е регистрирано, но не е обединено."
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -605,7 +605,7 @@ msgstr "За проверка"
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "To speed up reconciliation, define"
-msgstr "За да ускорите съгласуването, дефинирайте"
+msgstr "За да ускорите обединяването, дефинирайте"
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -649,7 +649,7 @@ msgstr "Дата на отписване"
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "You reconciled"
-msgstr "Вие съгласувахте"
+msgstr "Вие обединихте"
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -663,7 +663,7 @@ msgstr "и проследете клиентите"
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "have been reconciled automatically."
-msgstr "бяха съгласувани автоматично."
+msgstr "бяха обединени автоматично."
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -677,70 +677,70 @@ msgstr "ръчно извлечение"
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconcile"
-msgstr "съгласувaни"
+msgstr "обединяване"
 
 #. module: account_reconciliation_widget
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconciliation models"
-msgstr "модели на съгласуване"
+msgstr "модели на обединяване"
 
 #. module: account_reconciliation_widget
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconciled"
-msgstr "съгласувано"
+msgstr "обединено"
 
 #. module: account_reconciliation_widget
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconciliation period"
-msgstr "период на съгласуване"
+msgstr "период на обединяване"
 
 #. module: account_reconciliation_widget
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconcile now"
-msgstr "съгласувай сега"
+msgstr "обедини сега"
 
 #. module: account_reconciliation_widget
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconciliation tool"
-msgstr "инструмент за съгласуване"
+msgstr "инструмент за обединяване"
 
 #. module: account_reconciliation_widget
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconciliation widget"
-msgstr "инструмент за съгласуване"
+msgstr "инструмент за обединяване"
 
 #. module: account_reconciliation_widget
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconcile customer invoice"
-msgstr "съгласуване на фактура на клиент"
+msgstr "обединяване на клиентска фактура"
 
 #. module: account_reconciliation_widget
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconcile payment"
-msgstr "съгласуване на плащане"
+msgstr "обединяване на плащане"
 
 #. module: account_reconciliation_widget
 #. openerp-web
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconciliation"
-msgstr "съгласуване"
+msgstr "обединяване"
 
 #. module: account_reconciliation_widget
 #. openerp-web
@@ -787,7 +787,7 @@ msgstr "неплатени фактури"
 #: code:addons/account_reconciliation_widget/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "unreconciled entries"
-msgstr "несъгласувани записи"
+msgstr "необединени записи"
 
 #. module: account_reconciliation_widget
 #. openerp-web
